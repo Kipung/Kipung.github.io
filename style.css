@@ -17,3 +17,6 @@ body {
     border-radius: 2px;
     padding:1rem;
 }
+h1, h2 {
+    color:rgba(255,255, 255);
+}
