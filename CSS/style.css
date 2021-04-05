@@ -1,0 +1,289 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    /* border:solid black; */
+    max-height:100%;
+    margin:0;
+    padding-bottom:0;
+    background-color: rgba(60, 183, 139, 1);
+    font-family: 'Karla', sans-serif;
+}
+.navbar{
+    /* border:solid red; */
+    padding-top:7px;
+    padding-bottom:6px;
+    padding-left:3px;
+    padding-right:8px;
+    max-width: 100%;
+    margin-top:18px;
+    background: rgba(117, 223, 159, 0.9);
+    border-radius: 1rem;
+    min-width:320px;
+    top:0;
+    z-index: +2;
+    position: -webkit-sticky;
+    position: sticky;
+   
+}
+.wrapper {
+    /* border:solid yellow; */
+    max-width: 100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+.navigations {
+    -webkit-tap-highlight-color: transparent;
+    display:none;
+}
+.navigations.active {
+    /* border:solid blue; */
+    display:flex;
+    flex-direction:column;
+    padding:0;
+}
+.menu_wrapper {
+    /* border:solid purple; */
+    flex-direction:row;
+
+}
+ .navigations li {
+    /* border:solid black; */
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left:0;
+    list-style:none;
+}
+ .navigations li a{
+    /* border: solid green;        */
+    text-decoration:none;
+    color:rgba(255, 255, 255, 1);
+    font-size: 2vw;
+    font-weight:bold;
+    padding:6px;
+    font-size:5vw;
+}
+.navigations li a:active {
+    /* border:solid red; */
+    background:#5fa179;
+    /* padding-bottom:1.5px;
+    padding-top:1.5px; */
+    border-radius:0.9rem;
+}
+.navbar_logo{
+    /* border:solid purple; */
+    padding:5px;
+    padding-bottom:0;
+    padding-top:2px;
+    border-radius: 0.3rem;
+    margin-left:1px;
+}
+.navbar_title h1 {
+    /* border:solid green; */
+    padding-top:2px;
+    margin:0;
+    font-size:1.95em;
+}
+.navbar_title h1 a {
+    text-decoration:none;
+    color: white;
+}
+.navbar_menu_icon {
+    /* border:solid orange; */
+    /* padding-top:6px;
+    padding-left:6px; */
+    margin-top:6px;
+    margin-left:6px;
+}
+.navbar_menu_icon:active {
+    /* border:solid black; */
+    /* padding:2px; */
+    border-radius:0.5rem;
+    background:#5fa179;
+}
+.content{
+    /* border:solid red; */
+    display:flex;
+    flex-direction:column;
+    padding-top:20%;
+    min-width:320px;
+}
+.content h1{
+    /* border:solid purple; */
+    display:flex;
+    justify-content:center;
+    margin:0;
+    padding:0;
+    color:white;
+}
+.content h2{
+    /* border:solid blue; */
+    display:flex;
+    justify-content:space-evenly;
+    font-size:small;
+    margin:0;
+    margin-top:15%;
+    color:rgba(255, 255, 255, 0.75);;;
+}
+.image_holder {
+    /* border:solid blue; */
+    margin-top:15%;
+    margin-bottom:18%;
+    max-width:100%;
+    padding:15%;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.image_holder img {
+    max-width: 100%;
+    height:auto;
+}
+.question_holder{
+    /* border:solid red; */
+    display:flex;
+    justify-content: center;
+    margin-bottom:30%;
+}
+.content .question_holder h1  {
+    /* border:solid pink; */
+    padding:5px;
+    max-width:90%;
+    text-align:center;
+    background-color:rgba(136, 136, 136, 0.16);
+    border-radius:0.8rem;
+}
+footer {
+    /* border:solid purple; */
+    margin-bottom:0;
+    margin-top:100px;
+    border-radius: 5px 5px 0 0;
+    background-color:#48A081;
+}
+footer .first {
+    text-align:center;
+    color:#F5F5F5;
+    padding-top:1rem;
+    padding-left:1.8rem;
+    padding-right:1.8rem;
+    margin-bottom:0;
+}
+footer .second {
+    text-align:center;
+    color:#F5F5F5;
+    border-top:solid thin rgba(255, 255, 255, 0.5);
+    padding-top:1rem;
+    margin-left:2.8rem;
+    margin-right:2.8rem;
+}
+footer .second a {
+    text-decoration:none;
+    text-decoration:underline;
+    color:#F5F5F5;
+}
+footer .third {
+    text-align:center;
+    color:#F5F5F5;
+    /* border-top:solid thin rgba(255, 255, 255, 0.5); */
+    margin-left:1rem;
+    margin-right:1rem;
+    padding:0;
+    padding-top:1rem;
+}
+footer .third a {
+    text-decoration:none;
+    text-decoration: underline;
+    color: #F5F5F5;
+    
+}
+footer .copyright {
+    text-align:center;
+    color:#F5F5F5;
+    margin-bottom:0;
+    padding-bottom:0.5rem;
+    padding-top:0.5rem;
+    border-top:solid thin rgba(255, 255, 255, 0.5);
+}
+.about {
+    text-align:center;
+    padding: 1rem;
+}
+.about .aboutme {
+    color:white;
+}
+@media screen and (min-width:768px) {
+    .content {
+        /* border:solid blue; */
+    }
+    .content h1{
+        /* border:solid yellow; */
+        font-size:2.5vw;
+    }
+    .content h2 {
+        /* border:solid green; */
+        margin-top:5%;
+        margin-bottom:0;
+        padding-bottom:0;
+        font-size:1vw;
+    }
+    .image_holder{
+        /* border:solid red; */
+        margin-top:5%;
+        padding:0;
+        padding-left:10%;
+        padding-right:10%;
+        margin-bottom:8%;
+
+    }
+    .image_holder img {
+        /* border:solid black; */
+        max-width: 32%;
+        height:auto;
+        display:inline;
+        size:4vw;
+
+    }
+    .content .question_holder h1 {
+        font-size: 2.5vw;
+        max-width:50%;
+    }
+    .wrapper{
+        /* border:solid yellow; */
+        justify-content: center;
+    }
+    .navbar_menu_icon {
+        display:none;
+    }
+    .navbar .navigations {
+        /* border:solid pink; */
+        display:flex;
+        justify-content: space-evenly;
+        margin-top:0;
+        margin-bottom:2px;
+    }
+    .navigations li{
+        /* border:solid blue; */
+        list-style:none;
+    }
+     .navigations li a{
+        /* border: solid green;        */
+        text-decoration:none;
+        color:rgba(255, 255, 255, 1);
+        font-size: 2vw;
+        font-weight:bold;
+        padding:6px;
+    }
+    .card img {
+        max-width: 100%;
+    }
+    .about {
+        display:flex;
+        padding-top:5%;
+        padding: 5% 15rem 1rem 15rem;
+        flex-direction:column;
+        justify-content: center;
+    }
+    
+}
