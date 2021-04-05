@@ -4,32 +4,74 @@
     <meta charset="UTF-8">
     <title>Codingsteps.org</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.svg" type="imgae/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/fonts.css">
+    <script src="main.js" defer></script>
 </head>
 
 
-<body>
-<!--my logo-->
-    <div class="logo_wrapper"> 
-        <a href="index.html"><img class="logo" src="images/logo.svg" alt="Codingsteps.org logo"></a> <h1 class="title">Codingsteps.org</h1>
-        
-    </div>
-<!---->
+<body id="Home">
+    <nav class="navbar">
+         <div class="wrapper">
+            <div class="navbar_logo">
+                <a href="index.html"><img alt="codingsteps logo" src="images/logo.svg"></a>
+            </div>
+            <div class="navbar_title">
+                <h1><a href="index.html">Codingsteps.org</a></h1>
+            </div>
+                <a class="navbar_menu_icon">
+                    <img alt="menu_icon" src="images/menu_icon.svg">
+                </a>
+        </div>
+        <div class="menu_wrapper">
+            <ul class="navigations">
+                <li><a href="index.html" class="links">Home</a></li>
+                <li><a href="lessons.html" class="links">Lessons</a></li>
+                <li><a href="tutorials.html" class="links">Tutorials</a></li>
+                <!-- <li><a href="#" class="links">Review</a></li> -->
+                <li><a href="#" class="links">Contact</a></li>
+                <li><a href="about.html" class="links">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    
 
 <!--front-->
-    <div class="wrapper">
-
-        <!---->
-        
-        <!--middle part-->
-        <div class="middle">
-            <h1 class="slogan">Under Construction.</h1>
-            <h2 class="second_slogan">Coming Soon</h2>
-            <img class="computer" alt="computer" src="images/computer.svg">
-        </div>
-        <!---->
+    <div class="content">
+            <h1 class="slogan">Learn to code</h1><h1>Right here.</h1>
+            <h2 class="second_slogan">Beginner firendly lessons and tutorials</h2>
+            <div class="image_holder">
+                <img class="computer" src="images/computer.svg" alt="computer image" >
+            </div>
+            <br id="About"></br>
+            <div class=image_holder>
+                <img class="magnifier" src="images/magnifier.svg" alt="magnifier" >
+            </div>
+            <div class="question_holder">
+                <h1>Looking for a place to learn how to code?</h1>
+            </div>
+            <div class="image_holder">
+                <img src="/images/steps.svg" alt="steps">
+            </div>
+            <div class="question_holder">
+                <h1>A beginner?</h1>
+            </div>
+            <div class="image_holder">
+                <img src="/images/desk.svg" alt="desk">
+            </div>
+            <div class="question_holder">
+                <h1>At your own pace, learn how to code.</h1>
+            </div>
     </div>
 <!---->
+
+<footer>
+    <p class="first">Codingsteps.org is a platform for anyone to learn basic skills of coding for free.</p>
+    <p class="second">For more information about Codingsteps.org, go to <a href="about.html">About</a> page.</p>
+    <p class="third">Any questions?<br>Send an email to <a href="mailto: contact@codingsteps.org">contact@codingsteps.org</a></p>
+    <p class="copyright">© Copyright 2021, Codingsteps.org</p>
+</footer>
 
 </body>
 </html>
