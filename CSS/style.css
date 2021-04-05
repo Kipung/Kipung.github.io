@@ -219,7 +219,8 @@ footer .copyright {
     /* border:solid purple; */
 } 
 .card img {
-    max-width:100%
+    /* border:solid orange; */
+    max-width:95%
 }
 @media screen and (min-width:768px) {
     .content {
