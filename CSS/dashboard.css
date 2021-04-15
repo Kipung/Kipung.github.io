@@ -3,6 +3,7 @@
     padding-left:11px;
     padding-right:11px;
     margin-top:1rem;
+    margin-bottom:0;
 }
 .dashboard {
     /* border:solid red; */
@@ -70,11 +71,55 @@
     max-width: 90%;
     border-radius: 10px;
 }
-.title_card .pin {
-    position:absolute;
-    left:35px;
-    -webkit-filter: drop-shadow(-6px 10px 5px rgba(0,0,0));
+.thumbnail {
+    /* border:solid green; */
+    max-width: 90%;
+    border-radius: 10px;
 }
+.title {
+    /* border:solid red; */
+    max-width: 100%;
+    margin:0;
+    padding:1rem 0 0 0;
+    
+}
+.title h2 {
+    /* border:solid black; */
+    text-align:center;
+    margin:0;
+    color:#FF8743;
+}
+.beg_picture {
+    /* border:solid purple; */
+    margin:1rem 0 1rem 0;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.lesson_pic {
+    border:solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+.lessons {
+    margin: 0 2rem 0 2rem;
+    /* text-align: center; */
+}
+.big_size {
+    /* border:solid blue; */
+    margin:1rem;
+}
+.middle_size {
+    /* border:solid yellow; */
+    margin:0 1rem 0 1rem;
+    padding:0;
+}
+.listings {
+    margin:1rem;
+}
+.lesson_pic {
+    max-width: 90%;
+}
+
 
 @media screen and (min-width:768px) {
     .dashboard_wrapper {
@@ -84,10 +129,10 @@
         margin: 0 9rem 0 9rem;
     }
     .title_card .pin {
-        left:200px;
+        left:320px;
     }
     .tutorial_tag {
-        left:164px;
+        left:180px;
     }
     .navbar_menu_icon {
         display:none;
@@ -113,6 +158,9 @@
     }
     .dashboard {
         /* border:solid yellow; */
-        margin: 1rem 1rem 0 1rem;
+        margin: 1rem 2rem 0 2rem;
+    }
+    .thumbnail {
+        border-radius: 10px;
     }
 }

@@ -158,7 +158,7 @@ body {
 footer {
     /* border:solid purple; */
     margin-bottom:0;
-    margin-top:100px;
+    /* margin-top:100px; */
     border-radius: 5px 5px 0 0;
     background-color:#48A081;
 }
@@ -193,23 +193,27 @@ footer .third {
     padding-top:1rem;
 }
 footer .third a {
+    /* border:solid black; */
     text-decoration:none;
     text-decoration: underline;
     color: #F5F5F5;
     
 }
 footer .copyright {
+    /* border:solid yellow; */
     text-align:center;
     color:#F5F5F5;
     margin-bottom:0;
-    padding-bottom:0.5rem;
+    /* padding-bottom:0.5rem; */
     padding-top:0.5rem;
     border-top:solid thin rgba(255, 255, 255, 0.5);
 }
 .about {
     /* border:solid red; */
+    font-size:large;
     text-align:center;
     padding: 1rem;
+    margin-bottom:10rem;
 }
 .about .aboutme {
     /* border:solid yellow; */
