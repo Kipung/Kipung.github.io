@@ -119,7 +119,30 @@
 .lesson_pic {
     max-width: 90%;
 }
-
+/* Style the header: fixed position (always stay at the top) */
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index:0;
+    width:100%;
+    background-color: #f1f1f1;
+  }
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 6px;
+    background: #ccc;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 6px;
+    background: #04AA6D;
+    width: 0%;
+  }
 
 @media screen and (min-width:768px) {
     .dashboard_wrapper {

@@ -20,7 +20,7 @@ body {
     background: rgba(117, 223, 159, 0.9);
     border-radius: 1rem;
     min-width:320px;
-    top:0;
+    top:8px;
     z-index: +2;
     position: -webkit-sticky;
     position: sticky;
@@ -226,12 +226,17 @@ footer .copyright {
     /* border:solid orange; */
     max-width:95%
 }
-code {
-    font-family: Consolas,"courier new";
-    color: crimson;
-    background-color: #f1f1f1;
-    padding: 2px;
-    font-size: 105%;
+pre {
+    /* border:solid red; */
+    margin: 1rem 2rem 1rem 2rem;
+}
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    color:crimson;
+    display: block;
+    padding: 2px 1rem 2px 1rem;
+    text-align:initial;
   }
 @media screen and (min-width:768px) {
     .content {
