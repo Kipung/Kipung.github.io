@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Codingsteps.org</title>
+    <meta name="description" content="Codingsteps.org is a platform for anyone to learn basic skills of coding for free.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.svg" type="imgae/x-icon">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/fonts.css">
+    <link rel="stylesheet" href="../CSS/dashboard.css">
+    <script src="/main.js" defer></script>
+</head>
+
+
+<body id="Home">
+    <div class="header">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+    <nav class="navbar">
+         <div class="wrapper">
+            <div class="navbar_logo">
+                <a href="https://www.codingsteps.org/"><img alt="codingsteps logo" src="../images/logo.svg"></a>
+            </div>
+            <div class="navbar_title">
+                <h1><a href="https://www.codingsteps.org/">Codingsteps.org</a></h1>
+            </div>
+                <a class="navbar_menu_icon">
+                    <img alt="menu_icon" src="../images/menu_icon.svg">
+                </a>
+        </div>
+        <div class="menu_wrapper">
+            <ul class="navigations">
+                <li><a href="https://www.codingsteps.org/" class="links">Home</a></li>
+                <li><a href="../lessons" class="links">Lessons</a></li>
+                <li><a href="../tutorials" class="links">Tutorials</a></li>
+                <!-- <li><a href="#" class="links">Review</a></li> -->
+                <li><a href="contact" class="links">Contact</a></li>
+                <li><a href="../about" class="links">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+<!--front-->
+<div class="dashboard_wrapper">
+    <div class="dashboard">
+        <span class="title">
+            <h2>Python for Beginners:</h2>
+            <h2>Lesson 2 Variables</h2>
+        </span>
+        <span class="beg_picture">
+            <img src="/images/Python lesson img/Lesson 2/py_lesson_0.png" alt="Python lesson 2" class="thumbnail">
+        </span>
+        <p class="lessons">Hi, welcome to lesson 2 of Python for Beginners lesson!
+            <br>
+            <br>
+            Today, we are going to learn about variables. <br>
+            Variables are very important not only for Python programming language but for any programming language. Since variables will be important, it would be great to build a solid foundation on variables. So, let’s get started!
+            <br>
+            <br>
+        </p>
+        <h2 class="big_size">What are variables?</h2>
+        <br>
+        <br>
+        <p class="lessons">
+            I will assume that most of you are familiar with variables in your math classes, and even if you have never heard about it doesn’t matter too much.
+            <br>
+            <br>
+            So, it is easy to understand variables as a “memory box”. You let the “memory box” to remember what you want it to remember. 
+        </p>
+        <span class="beg_picture">
+            <img src="/images/Python lesson img/Lesson 2/py_lesson_1.jpg" alt="Python lesson 1" class="lesson_pic">
+        </span>
+        <br>
+        <br>
+        <p class="lessons">
+            For example, if you have a phone number of a very important person, such as your boss, teacher,etc. But obviously you are not going to memorize that, instead you will save the phone number in your phonebook. Similar to the phonebook, variables in programming will remember what you put in that “memory box”. 
+        </p>
+        <br>
+        <br>
+
+        <p class="lessons">
+            And for our case, we could name our “memory box” with almost anything. It could be called “x”, “y”, or almost anything. 
+        </p>
+        <br>
+        <br>
+        <span class="beg_picture">
+            <img src="/images/Python lesson img/Lesson 2/py_lesson_2.jpg" alt="Python lesson 1" class="lesson_pic">
+        </span>
+        <p class="lessons">
+            So, let's see how that works when we code.
+        </p>
+        <span class="beg_picture">
+            <img src="/images/Python lesson img/Lesson 2/py_lesson_3.png" alt="Python lesson 1" class="lesson_pic">
+        </span>
+        <p class="lessons">
+            Like in lesson 1, we would make a python file with “.py” at the end of a file name to indicate that we are creating a python file.
+            <br>
+            <br>
+            For actual codes, I will just write it in a code block.
+        </p>
+        <pre>
+            <code>
+                <p>x = 12</p>
+            </code>
+        </pre>
+        <p class="lessons">
+            So, here in the code block, we can see the "x", which is the variable name.
+            <br>
+            As mentioned before, we could name our variables with almost any name, it can be even called "python_is_so_amazing". But as you can notice, I used underscores "_" when I needed a space. <br> So, when we name a variable, we cannot have a space. If we have a space, then python will recognize as something else. So, many people do use underscores, but the important thing is to make a very clear variable names that you could easily understand what that variable means. 
+            <br>
+            <br>
+            The more you deal with variables, you will understand the importance of naming a clear and concise variable name, because when you deal with many variables, you will confuse yourself unless you use very clear names. 
+            <br>
+            <br>
+            Now, moving onto the equal sign "=". It means that we are assigning whatever on the right, in this case "12", to the "x" that we named. 
+            <br>
+            <br>
+            Simply, we are telling the computer to remember the number 12 with "x". 
+            <br>
+            <br>
+            Not only just numbers, you can store texts such as "we are learning Python". However, unlike when we store numbers, for texts or words we have to use quatation makrs. It is upto you whether you use single or double quote.
+        </p>
+    </div>
+</div>
+
+    
+<!---->
+
+<footer>
+    <p class="first">Codingsteps.org is a platform for anyone to learn basic skills of coding for free.</p>
+    <p class="second">For more information about Codingsteps.org, go to <a href="../about">About</a> page.</p>
+    <p class="third">Any questions?<br>Send an email to <a href="mailto: contact@codingsteps.org">contact@codingsteps.org</a></p>
+    <p class="copyright">© Copyright 2021, Codingsteps.org</p>
+    <br>
+</footer>
+
+<script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+</script>
+</body>
+</html>
