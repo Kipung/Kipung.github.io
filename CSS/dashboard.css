@@ -91,7 +91,7 @@
     color:#FF8743;
 }
 .beg_picture {
-    border:solid purple;
+    /* border:solid purple; */
     margin:1rem 0 1rem 0;
     display:flex;
     flex-direction: row;
@@ -145,7 +145,7 @@
     width: 0%;
   }
 .advertisement{
-    border:solid purple;
+    /* border:solid purple; */
     margin:1rem 0 1rem 0;
     display:flex;
     flex-direction: row;
