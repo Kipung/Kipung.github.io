@@ -1,47 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Codingsteps.org</title>
-    <meta name="description" content="Codingsteps.org is a platform for anyone to learn basic skills of coding for free.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/favicon.svg" type="imgae/x-icon">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/fonts.css">
-    <link rel="stylesheet" href="../CSS/dashboard.css">
-    <script src="/main.js" defer></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Codingsteps.org</title>
+        <meta name="description" content="Codingsteps.org is a platform for anyone to learn basic skills of coding for free.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon and CSS -->
+        <link rel="shortcut icon" href="images/favicon.svg" type="imgae/x-icon">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/fonts.css">
+        <link rel="stylesheet" href="CSS/dashboard.css">
+        <!-- <link rel="stylesheet" href="CSS/slideshow.css"> -->
+        <!-- JavaScript -->
+        <script src="main.js" defer></script>
+        <script src="JS/Header.js" type="text/javascript" defer></script>
+        <script src="JS/Footer.js" type="text/javascript" defer></script>
+        <script src="JS/slideshow.js" defer></script>
+        <!-- Google Ads -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1615781386315365"
+         crossorigin="anonymous"></script>
+    </head>
 
 
 <body id="Home">
-    <div class="header">
-        <div class="progress-container">
-            <div class="progress-bar" id="myBar"></div>
-        </div>
-    </div>
-    <nav class="navbar">
-         <div class="wrapper">
-            <div class="navbar_logo">
-                <a href="https://www.codingsteps.org/"><img alt="codingsteps logo" src="../images/logo.svg"></a>
-            </div>
-            <div class="navbar_title">
-                <h1><a href="https://www.codingsteps.org/">Codingsteps.org</a></h1>
-            </div>
-                <a class="navbar_menu_icon">
-                    <img alt="menu_icon" src="../images/menu_icon.svg">
-                </a>
-        </div>
-        <div class="menu_wrapper">
-            <ul class="navigations">
-                <li><a href="https://www.codingsteps.org/" class="links">Home</a></li>
-                <li><a href="https://www.codingsteps.org/lessons" class="links">Lessons</a></li>
-                <li><a href="https://www.codingsteps.org/contact" class="links">Contact</a></li>
-                <!-- <li><a href="#" class="links">Review</a></li> -->
-                <li><a href="https://www.codingsteps.org/bookmobile" class="links">Bookmobile</a></li>
-                <li><a href="https://www.codingsteps.org/about" class="links">About</a></li>
-            </ul>
-        </div>
-    </nav>
+    <header-component></header-component>
     
 
 <!--front-->
@@ -181,13 +163,7 @@
     
 <!---->
 
-<footer>
-    <p class="first">Codingsteps.org is a platform for anyone to learn basic skills of coding for free.</p>
-    <p class="second">For more information about Codingsteps.org, go to <a href="../about">About</a> page.</p>
-    <p class="third">Any questions?<br>Send an email to <a href="mailto: contact@codingsteps.org">contact@codingsteps.org</a></p>
-    <p class="copyright">© Copyright 2021, Codingsteps.org</p>
-    <br>
-</footer>
+<footer-component></footer-component>
 
 <script>
     // When the user scrolls the page, execute myFunction
