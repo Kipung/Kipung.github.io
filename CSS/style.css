@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    padding-bottom:0;
 }
 body {
     /* border:solid black; */
@@ -9,99 +10,7 @@ body {
     background-color: rgba(60, 183, 139, 1);
     font-family: 'Karla', sans-serif;
 }
-.navbar{
-    /* border:solid red; */
-    padding-top:7px;
-    padding-bottom:6px;
-    padding-left:3px;
-    padding-right:8px;
-    max-width: 100%;
-    margin-top:18px;
-    background: rgba(117, 223, 159, 0.9);
-    border-radius: 1rem;
-    min-width:320px;
-    top:8px;
-    z-index: +2;
-    position: -webkit-sticky;
-    position: sticky;
-   
-}
-.wrapper {
-    /* border:solid yellow; */
-    max-width: 100%;
-    display:flex;
-    justify-content:space-evenly;
-}
-.navigations {
-    -webkit-tap-highlight-color: transparent;
-    display:none;
-}
-.navigations.active {
-    /* border:solid blue; */
-    display:flex;
-    flex-direction:column;
-    padding:0;
-}
-.menu_wrapper {
-    /* border:solid purple; */
-    flex-direction:row;
 
-}
- .navigations li {
-    /* border:solid black; */
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left:0;
-    list-style:none;
-}
- .navigations li a{
-    /* border: solid green;        */
-    text-decoration:none;
-    color:rgba(255, 255, 255, 1);
-    font-size: 2vw;
-    font-weight:bold;
-    padding:6px;
-    font-size:5vw;
-}
-.navigations li a:active {
-    /* border:solid red; */
-    background:#5fa179;
-    /* padding-bottom:1.5px;
-    padding-top:1.5px; */
-    border-radius:0.9rem;
-}
-.navbar_logo{
-    /* border:solid purple; */
-    padding:5px;
-    padding-bottom:0;
-    padding-top:2px;
-    border-radius: 0.3rem;
-    margin-left:1px;
-}
-.navbar_title h1 {
-    /* border:solid green; */
-    padding-top:2px;
-    margin:0;
-    font-size:1.95em;
-}
-.navbar_title h1 a {
-    text-decoration:none;
-    color: white;
-}
-.navbar_menu_icon {
-    /* border:solid orange; */
-    /* padding-top:6px;
-    padding-left:6px; */
-    margin-top:6px;
-    margin-left:6px;
-}
-.navbar_menu_icon:active {
-    /* border:solid black; */
-    /* padding:2px; */
-    border-radius:0.5rem;
-    background:#5fa179;
-}
 .content{
     /* border:solid red; */
     display:flex;
@@ -155,59 +64,7 @@ body {
     background-color:rgba(136, 136, 136, 0.16);
     border-radius:0.8rem;
 }
-footer {
-    /* border:solid purple; */
-    margin-bottom:0;
-    /* margin-top:100px; */
-    border-radius: 5px 5px 0 0;
-    background-color:#48A081;
-}
-footer .first {
-    text-align:center;
-    color:#F5F5F5;
-    padding-top:1rem;
-    padding-left:1.8rem;
-    padding-right:1.8rem;
-    margin-bottom:0;
-}
-footer .second {
-    text-align:center;
-    color:#F5F5F5;
-    border-top:solid thin rgba(255, 255, 255, 0.5);
-    padding-top:1rem;
-    margin-left:2.8rem;
-    margin-right:2.8rem;
-}
-footer .second a {
-    text-decoration:none;
-    text-decoration:underline;
-    color:#F5F5F5;
-}
-footer .third {
-    text-align:center;
-    color:#F5F5F5;
-    /* border-top:solid thin rgba(255, 255, 255, 0.5); */
-    margin-left:1rem;
-    margin-right:1rem;
-    padding:0;
-    padding-top:1rem;
-}
-footer .third a {
-    /* border:solid black; */
-    text-decoration:none;
-    text-decoration: underline;
-    color: #F5F5F5;
-    
-}
-footer .copyright {
-    /* border:solid yellow; */
-    text-align:center;
-    color:#F5F5F5;
-    margin-bottom:0;
-    /* padding-bottom:0.5rem; */
-    padding-top:0.5rem;
-    border-top:solid thin rgba(255, 255, 255, 0.5);
-}
+
 .about {
     /* border:solid red; */
     font-size:large;
@@ -274,32 +131,7 @@ pre code {
         font-size: 2.5vw;
         max-width:50%;
     }
-    .wrapper{
-        /* border:solid yellow; */
-        justify-content: center;
-    }
-    .navbar_menu_icon {
-        display:none;
-    }
-    .navbar .navigations {
-        /* border:solid pink; */
-        display:flex;
-        justify-content: space-evenly;
-        margin-top:0;
-        margin-bottom:2px;
-    }
-    .navigations li{
-        /* border:solid blue; */
-        list-style:none;
-    }
-     .navigations li a{
-        /* border: solid green;        */
-        text-decoration:none;
-        color:rgba(255, 255, 255, 1);
-        font-size: 2vw;
-        font-weight:bold;
-        padding:6px;
-    }
+    
     .card img {
         max-width: 100%;
     }
