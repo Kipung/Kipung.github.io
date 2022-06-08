@@ -147,10 +147,10 @@ class Header extends HTMLElement{
             <ul class="navigations">
                 <li><a href="https://www.codingsteps.org/" class="links">Home</a></li>
                 <li><a href="/lessons" class="links">Lessons</a></li>
-                <li><a href="https://www.codingsteps.org/contact" class="links">Contact</a></li>
+                <li><a href="/contact" class="links">Contact</a></li>
          
-                <li><a href="https://www.codingsteps.org/bookmobile" class="links">Bookmobile</a></li>
-                <li><a href="https://www.codingsteps.org/about" class="links">About</a></li>
+                <li><a href="/bookmobile" class="links">Bookmobile</a></li>
+                <li><a href="/about" class="links">About</a></li>
             </ul>
         </div>
     </nav>
