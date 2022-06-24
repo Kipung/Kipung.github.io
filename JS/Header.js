@@ -134,7 +134,7 @@ class Header extends HTMLElement{
             <nav class="navbar">
          <div class="wrapper">
             <div class="navbar_logo">
-                <a href="https://www.codingsteps.org/"><img alt="codingsteps logo" src="images/logo.svg" onerror=src="/images/logo.svg"></a>
+                <a href="https://www.codingsteps.org/"><img alt="codingsteps logo" src="images/logo.svg" onerror=src="https://www.codingsteps.org/images/logo.svg"></a>
             </div>
             <div class="navbar_title">
                 <h1><a href="https://www.codingsteps.org/">Codingsteps.org</a></h1>
