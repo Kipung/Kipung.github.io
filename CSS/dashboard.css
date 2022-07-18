@@ -1,12 +1,12 @@
 .dashboard_wrapper {
-    border:solid yellow;
+    /* border:solid yellow; */
     padding-left:11px;
     padding-right:11px;
     margin-top:1rem;
     margin-bottom:0;
 }
 .dashboard {
-    border:solid red;
+    /* border:solid red; */
     font-size:18px;
     display:flex;
     flex-direction:column;
