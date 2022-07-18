@@ -45,7 +45,7 @@ class Header extends HTMLElement{
             
             }
             .navigations li {
-                /* border:solid black; */
+                // border:solid black;
                 display:flex;
                 flex-direction: row;
                 justify-content: center;
@@ -53,7 +53,7 @@ class Header extends HTMLElement{
                 list-style:none;
             }
             .navigations li a{
-                /* border: solid green;        */
+                // border: solid green; 
                 text-decoration:none;
                 color:rgba(255, 255, 255, 1);
                 font-size: 2vw;
@@ -77,10 +77,10 @@ class Header extends HTMLElement{
                 margin-left:1px;
             }
             .navbar_title h1 {
-                /* border:solid green; */
+                // border:solid green;
                 padding-top:2px;
                 margin:0;
-                font-size:1.95em;
+                font-size:1.7em;
             }
             .navbar_title h1 a {
                 text-decoration:none;
@@ -88,8 +88,7 @@ class Header extends HTMLElement{
             }
             .navbar_menu_icon {
                 /* border:solid orange; */
-                /* padding-top:6px;
-                padding-left:6px; */
+               
                 margin-top:6px;
                 margin-left:6px;
             }
@@ -140,7 +139,7 @@ class Header extends HTMLElement{
                 <h1><a href="https://www.codingsteps.org/">Codingsteps.org</a></h1>
             </div>
                 <a class="navbar_menu_icon">
-                    <img alt="menu_icon" src="images/menu_icon.svg">
+                    <img alt="menu_icon" src="https://www.codingsteps.org/images/menu_icon1.svg">
                 </a>
         </div>
         <div class="menu_wrapper">

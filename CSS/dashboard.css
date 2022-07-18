@@ -1,12 +1,12 @@
 .dashboard_wrapper {
-    /* border:solid yellow; */
+    border:solid yellow;
     padding-left:11px;
     padding-right:11px;
     margin-top:1rem;
     margin-bottom:0;
 }
 .dashboard {
-    /* border:solid red; */
+    border:solid red;
     font-size:18px;
     display:flex;
     flex-direction:column;
@@ -15,7 +15,7 @@
     margin-top:2%;
     background-color:white;
     border-radius:5px;
-    padding:0 5rem 0 5rem;
+    /* padding:0 5rem 0 5rem; */
 }
 .tutorial_tag {
     /* border: solid black; */

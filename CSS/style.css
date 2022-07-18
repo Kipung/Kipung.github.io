@@ -92,9 +92,16 @@ pre code {
     border: 1px solid #999;
     color:crimson;
     display: block;
+    margin:0;
     padding: 2px 1rem 2px 1rem;
     text-align:initial;
   }
+pre code p {
+    font-size: 65%;
+    /* border:solid red; */
+    padding:2rm;
+    margin:0;
+}
 @media screen and (min-width:768px) {
     .content {
         /* border:solid blue; */
@@ -141,6 +148,12 @@ pre code {
         padding: 5% 15rem 1rem 15rem;
         flex-direction:column;
         justify-content: center;
+    }
+    pre code p {
+        font-size: 80%;
+        /* border:solid red; */
+        padding:2rm;
+        margin:0;
     }
     
 }
