@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+    padding-bottom:0;
+}
+body {
+    /* border:solid black; */
+    max-height:100%;
+    margin:0;
+    padding-bottom:0;
+    background-color: rgba(60, 183, 139, 1);
+    font-family: 'Karla', sans-serif;
+}
+
+.content{
+    /* border:solid red; */
+    display:flex;
+    flex-direction:column;
+    padding-top:20%;
+    min-width:320px;
+}
+.content h1{
+    /* border:solid purple; */
+    display:flex;
+    justify-content:center;
+    margin:0;
+    padding:0;
+    color:white;
+}
+.content h2{
+    /* border:solid blue; */
+    display:flex;
+    justify-content:space-evenly;
+    font-size:small;
+    margin:0;
+    margin-top:15%;
+    color:rgba(255, 255, 255, 0.75);;;
+}
+.image_holder {
+    /* border:solid blue; */
+    margin-top:15%;
+    margin-bottom:18%;
+    max-width:100%;
+    padding:15%;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.image_holder img {
+    max-width: 100%;
+    height:auto;
+}
+.question_holder{
+    /* border:solid red; */
+    display:flex;
+    justify-content: center;
+    margin-bottom:30%;
+}
+.content .question_holder h1  {
+    /* border:solid pink; */
+    padding:5px;
+    max-width:90%;
+    text-align:center;
+    background-color:rgba(136, 136, 136, 0.16);
+    border-radius:0.8rem;
+}
+
+.about {
+    /* border:solid red; */
+    font-size:large;
+    text-align:center;
+    padding: 1rem;
+    margin-bottom:10rem;
+}
+.about .aboutme {
+    /* border:solid yellow; */
+    color:white;
+}
+.card {
+    /* border:solid purple; */
+} 
+.card img {
+    /* border:solid orange; */
+    max-width:95%
+}
+pre {
+    /* border:solid red; */
+    margin: 1rem 2rem 1rem 2rem;
+}
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    color:crimson;
+    display: block;
+    margin:0;
+    padding: 2px 1rem 2px 1rem;
+    text-align:initial;
+  }
+pre code p {
+    font-size: 65%;
+    /* border:solid red; */
+    padding:2rm;
+    margin:0;
+}
+@media screen and (min-width:768px) {
+    .content {
+        /* border:solid blue; */
+    }
+    .content h1{
+        /* border:solid yellow; */
+        font-size:2.5vw;
+    }
+    .content h2 {
+        /* border:solid green; */
+        margin-top:5%;
+        margin-bottom:0;
+        padding-bottom:0;
+        font-size:1vw;
+    }
+    .image_holder{
+        /* border:solid red; */
+        margin-top:5%;
+        padding:0;
+        padding-left:10%;
+        padding-right:10%;
+        margin-bottom:8%;
+
+    }
+    .image_holder img {
+        /* border:solid black; */
+        max-width: 32%;
+        height:auto;
+        display:inline;
+        size:4vw;
+
+    }
+    .content .question_holder h1 {
+        font-size: 2.5vw;
+        max-width:50%;
+    }
+    
+    .card img {
+        max-width: 100%;
+    }
+    .about {
+        display:flex;
+        padding-top:5%;
+        padding: 5% 15rem 1rem 15rem;
+        flex-direction:column;
+        justify-content: center;
+    }
+    pre code p {
+        font-size: 80%;
+        /* border:solid red; */
+        padding:2rm;
+        margin:0;
+    }
+    
+}

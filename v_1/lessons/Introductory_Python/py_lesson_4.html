@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Codingsteps.org</title>
+        <meta name="description" content="Codingsteps.org is a platform for anyone to learn basic skills of coding for free.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon and CSS -->
+        <link rel="shortcut icon" href="/images/favicon.svg" type="imgae/x-icon">
+        <link rel="stylesheet" href="/CSS/style.css">
+        <link rel="stylesheet" href="/CSS/fonts.css">
+        <link rel="stylesheet" href="/CSS/dashboard.css">
+        <!-- <link rel="stylesheet" href="CSS/slideshow.css"> -->
+        <!-- JavaScript -->
+        <script src="/JS/Header.js" type="text/javascript" defer></script>
+        <script src="/JS/Footer.js" type="text/javascript" defer></script>
+        <script src="/JS/slideshow.js" defer></script>
+        <script src="/JS/main.js" defer></script>
+        <!-- Google Ads -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1615781386315365"
+         crossorigin="anonymous"></script>
+         <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+   <script>hljs.initHighlightingOnLoad();</script>
+    </head>
+
+
+<body id="Home">
+    <header-component></header-component>
+    
+    
+
+<!--front-->
+<div class="dashboard_wrapper">
+    <div class="dashboard">
+        <span class="title">
+            <h2>Python for Beginners</h2>
+            <h2>Lesson 4 For Loop & While Loop</h2>
+        </span>
+        <span class="beg_picture">
+            <img src="/images/Python lesson img/Lesson 4/py_lesson_0.png" alt="Python lesson 4" class="thumbnail">
+        </span>
+        <p class="lessons">Hi, welcome to lesson 4 of Introductory Python!😆
+            
+        </p>
+        
+        
+        
+        <!-- <span class="beg_picture">
+            <img src="/images/Python lesson img/py_lesson_1.jpg" alt="Python lesson 0" class="lesson_pic">
+        </span> -->
+        
+        <p class="lessons"> Today, we are going to learn about two loops: <em><strong>for loop</strong></em> and <em><strong>while loop</strong></em>.</p>
+
+        <h3>Loops in general</h3>
+        <p class="lessons">Whether it is while or for loop, loops help us to write long repeating codes into shorter version that accomplish the same task. 
+        <br>
+        <br>
+        For example, to write hello 5 times might look like this without a loop:
+      
+<pre>
+    <code>
+<p>print("hello")
+print("hello")
+print("hello")
+print("hello")
+print("hello")</p>
+    </code>
+</pre>
+        </p>
+    
+
+        <p class="lessons">But using a for loop, it looks like this:</p>
+<pre>
+    <code>
+<p>for x in range(5):
+    print("hello")
+</p>
+    </code>
+</pre>
+    <p class="lessons">You can see that loops can be very useful for writing repeating patterns. Don't worry about the exact syntax here, we will go over them soon.</p>
+
+        <h2>While Loop</h2>
+            <p class="lessons">First, let's go over while loop.</p>
+            <pre>
+                <code>
+<p>
+while (True):
+    print("Hello")
+</p>
+                </code>
+            </pre>
+<p class="lessons">From this example, we actually get an infinite loop that keeps printing "Hello".</p>
+
+<p class="lessons">Basically, if the statement or variable is True in the parentheses, then the code under while (with the indentation) will run.</p>
+
+<br><br>
+<p class="lessons">So, in the parentheses it can go with simple logic statement like whether 3 is bigger than 5</p>
+
+<pre>
+    <code>
+<p>while (3>5):
+    print("hello")
+</p>
+    </code>
+</pre>
+<p class="lessons">For this example above, the while loop will not run at all because the statement in the parentheses is simply not true.</p>
+<pre>
+    <code>
+        <p>
+while (False):
+    print("hello")
+        </p>
+    </code>
+</pre>
+<p class="lessons">Above will also not run because it is using "False" with the capital f, which is a boolean value for false. So for while loops, you can simply use False, or True to run it. However, when using True, it would result in an infinite loop.</p>
+<br><br>
+<p class="lessons">However, mostly while loops are used together with incrementation or decrementation.<br>
+For example:
+</p>
+
+<pre>
+    <code>
+<p>
+x = 0
+while (x<5):
+    print("hello")
+    x = x+1
+</p>
+    </code>
+</pre>
+<p class="lessons">This example above will print out "hello" 5 times and stop. And probably you can see why it stops after 5 times</p>
+<p class="lessons">Since, both lines are under while loop with the indentation, they are both run. And the x = x+1 line will increase the value of x by 1 which is called incrementation. So as it loops, it reaches 5 where the statement becomes false and the while loop stops looping. </p>
+
+<br><br>
+<p class="lessons">Decrementing loop works as well.</p>
+
+<pre>
+    <code>
+        <p>
+x = 10
+while (x>=1):
+    print("hello")
+    x = x-1
+        </p>
+    </code>
+</pre>
+
+<p class="lessons">But here, notice. The less than or equal to sign. Because of this, it will run 10 times. Without the equal sign, it will only run 9 times. If you want to check, you can check by iterating through each line and updating the variable x on a paper or something. Alternative method is that you put 0 instead of 1 and just leave only less than sign, then it will run 10 times as well. </p>
+
+
+<br><br>
+<p class="lessons">I think that was enough of while loops. I personally think that at the beginning while loops may appear more difficult than for loops. Let's look at for loops now.</p>
+
+<h2>For Loop</h2>
+<p class="lessons">Let's start with an example.</p>
+
+<pre>
+    <code>
+<p>
+ran_list = [1,2,3,4,5]    
+for x in ran_list:
+    print(x)
+</p>
+    </code>
+</pre>
+<p class="lessons">After running this code above, you get this:</p>
+<pre>
+    <code>
+1 
+2 
+3 
+4 
+5
+    </code>
+</pre>
+
+<p class="lessons">The "x" we put right next to "for" is a variable name. At that moment of running the for loop, we are basically creating a temporary variable that will go through the list we created beforehand:"ran_list". And we call this process an iteration.</p> <br>
+<p class="lessons">As "x" iterates through the list, it takes each value from the list and goes to the code under for loop statement, which in this case we only have "print(x)". So, as it tries to print, it calls the variable "x" that we created temporarily only within this for loop. So, it iterates the first element in the "ran_list", which is 1, so the first line of printing is 1. And the iteration continues printing out 1 through 5. </p>
+
+
+<br> 
+<pre>
+    <code>
+<p>
+ran_list = [1,2,3,4,5]
+for x in ran_list:
+    print("hello")
+</p>
+    </code>
+</pre>
+
+<p class="lessons">However, in this example above, we don't even use the variable x that we iterated through the list. This is totally fine. However, since we iterate through the list 5 times, we successfully print "hello" 5 times. So, either way you can do, whether you want to use the variable or not. </p>
+<br>
+<p class="lessons">A good tip for iterating through a know number of times, actually "range" function is used a lot. Here is the code for that:</p>
+
+<pre>
+    <code>
+<p>
+for x in range(5):
+    print("hello")
+</p>
+    </code>
+</pre>
+<p class="lessons">This code example above, also prints out "hello" 5 times. You can think of "range" as list that starts with 0 and ends at the number you put but that number is exclusive. So, for this case, it starts with 0 but ends at 5 without including 5. So, if we hypothetically create a list it would be something like this: [0,1,2,3,4].</p>
+
+<br>
+<p class="lessons">With "range", we can not only loop through the number of times you specify, but also count too.</p>
+
+<pre>
+    <code>
+<p>
+for x in range(5):
+    print(x)
+</p>
+    </code>
+</pre>
+
+<p class="lessons">This example above will print out 0 to 4. And if you are picky and want to print out 1 through 5, then you could just add 1 to print statement.</p>
+
+<pre>
+    <code>
+<p>for x in range(5):
+    print(x+1)
+</p>
+    </code>
+</pre>
+
+<p class="lessons">With the "+1", you can actually get from 1-5. </p>
+
+<h2>Conclusion</h2>
+<p class="lessons">Even though, all we did was printing out a bunch of hellos and numbers, these loops can bring so much power and efficiency to your code. That was long but hopefully that was helpful. Thank you!</p>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1615781386315365"
+     crossorigin="anonymous"></script>
+<div class="advertisement">
+    <!-- test -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1615781386315365"
+     data-ad-slot="9918502834"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+       
+        <br>
+        <br>
+        <br>
+    </div>
+</div>
+
+    
+<!---->
+
+<footer-component></footer-component>
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+</body>
+</html>
