@@ -133,23 +133,23 @@ class Header extends HTMLElement{
             <nav class="navbar">
          <div class="wrapper">
             <div class="navbar_logo">
-                <a href="https://www.codingsteps.org/"><img alt="codingsteps logo" src="https://www.codingsteps.org/images/logo.svg" onerror=src="https://www.codingsteps.org/images/logo.svg"></a>
+                <a href="/v_1/index.html"><img alt="codingsteps logo" src="/v_1/images/logo.svg"></a>
             </div>
             <div class="navbar_title">
-                <h1><a href="https://www.codingsteps.org/">Codingsteps.org</a></h1>
+                <h1><a href="/v_1/index.html">Codingsteps.org</a></h1>
             </div>
                 <a class="navbar_menu_icon">
-                    <img alt="menu_icon" src="https://www.codingsteps.org/images/menu_icon1.svg">
+                    <img alt="menu_icon" src="/v_1/images/menu_icon1.svg">
                 </a>
         </div>
         <div class="menu_wrapper">
             <ul class="navigations">
-                <li><a href="https://www.codingsteps.org/" class="links">Home</a></li>
-                <li><a href="/lessons" class="links">Lessons</a></li>
-                <li><a href="/contact" class="links">Contact</a></li>
+                <li><a href="/v_1/index.html" class="links">Home</a></li>
+                <li><a href="/v_1/lessons.html" class="links">Lessons</a></li>
+                <li><a href="/v_1/contact.html" class="links">Contact</a></li>
          
-                <li><a href="/bookmobile" class="links">Bookmobile</a></li>
-                <li><a href="/about" class="links">About</a></li>
+                <li><a href="/v_1/bookmobile.html" class="links">Bookmobile</a></li>
+                <li><a href="/v_1/about.html" class="links">About</a></li>
             </ul>
         </div>
     </nav>
